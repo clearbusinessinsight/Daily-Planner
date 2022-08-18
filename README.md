@@ -23,7 +23,7 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-Your site is live at https://clearbusinessinsight.github.io/Daily-Planner/
+https://clearbusinessinsight.github.io/Daily-Planner/
 
 https://github.com/clearbusinessinsight/Daily-Planner/settings/pages
 
