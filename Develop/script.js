@@ -64,20 +64,7 @@ var myDay = [
         reminder: ""
     },
 
-    {
-        id: "9",
-        hour: "06",
-        time: "18",
-        meridiem: " pm",
-        reminder: ""
-    },
-    {
-        id: "10",
-        hour: "07",
-        time: "19",
-        meridiem: " pm",
-        reminder: ""
-    },
+    
     
 ]
 
@@ -168,12 +155,12 @@ init();
 // saves data to be used in localStorage
 $(".saveBtn").on("click", function(event) {
     event.preventDefault();
-    
-
-    var saveIndex = $(this).siblings(".description").children(".future").attr("id");
-    myDay[saveIndex].reminder = $(this).siblings(".description").children(".future").val();
-    console.log(saveIndex);
+    console.log($(this).siblings(".description").children())
+    var saveIndex = $(this).siblings(".description").children()[0].id;
+    myDay[saveIndex].reminder = $(this).siblings(".description").children()[0].value;
+    console.log($(this).siblings(".description").children()[0].value);
     saveReminders();
     displayReminders();
+    console.log($(this).siblings(".description").children())
     
 })
