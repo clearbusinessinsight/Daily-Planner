@@ -1,10 +1,11 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-## Your Task
+## My Task
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+It was my task to create an application to allow users to add events to be accomplished later in the day and add them to the calendar for today.
+The events can be saved when the user clicks the save icon.
+The current date is to be displayed at the top of the screen.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
 
 ## User Story
 
