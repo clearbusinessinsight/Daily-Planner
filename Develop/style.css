@@ -45,21 +45,26 @@ textarea {
   border-left: 1px dashed #000000;
   border-bottom: 1px dashed #000000;
   height: 90%;
+  padding: 25px;   
+  
 }
 
 .past {
   background-color: #d3d3d3;
   color: black;
+  font-weight: 600;
 }
 
 .present {
   background-color: #ff6961;
   color: white;
+  font-weight: 600;
 }
 
 .future {
   background-color: #77dd77;
   color: white;
+  font-weight: 600;
 }
 
 .saveBtn {
