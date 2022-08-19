@@ -27,3 +27,6 @@ https://clearbusinessinsight.github.io/Daily-Planner/
 
 https://github.com/clearbusinessinsight/Daily-Planner/settings/pages
 
+
+![](Work%20Day%20Scheduler.gif)
+
